@@ -50,3 +50,17 @@ local id = CreateWindow("title", 1, 1, 60, 20, "Test")
 local Workspace = GetWindowById(id)
 
 ```
+
+#CreateLayoutInWindowById
+--------
+Input: Id window, x, y, width, height, columnCount, rowCount 
+return 
+<br>
+Return: 1 - window <br>
+Description: Allows you to get the program window by its id
+Example:
+```lua
+local id = CreateWindow("title", 1, 1, 60, 20, "Test")
+local Workspace = GetWindowById(id)
+
+```
