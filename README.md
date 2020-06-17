@@ -26,7 +26,7 @@ local menu = GetMenuWindow(id)
 
 ```
 
----------
+
 # GetWorkspaceWindow
 -----------
 Input: Id window <br>
@@ -36,5 +36,17 @@ Example:
 ```lua
 local id = CreateWindow("title", 1, 1, 60, 20, "Test")
 local Workspace = GetWorkspaceWindow(id)
+
+```
+
+# GetWindowById
+-----------
+Input: Id window <br>
+Return: 1 - window <br>
+Description: Allows you to get the program window by its id
+Example:
+```lua
+local id = CreateWindow("title", 1, 1, 60, 20, "Test")
+local Workspace = GetWindowById(id)
 
 ```
